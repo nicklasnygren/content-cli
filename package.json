@@ -1,0 +1,30 @@
+{
+  "name": "brisk-content-cli",
+  "version": "1.0.0",
+  "description": "Node CLI for content-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brisk-io/content-cli.git"
+  },
+  "keywords": [
+    "Brisk"
+  ],
+  "author": "Nicklas Nygren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brisk-io/content-cli/issues"
+  },
+  "homepage": "https://github.com/brisk-io/content-cli",
+  "preferGlobal": "true",
+  "bin": {
+    "brisk-content": "index.js"
+  },
+  "dependencies": {
+    "prompt": "^0.2.14",
+    "request": "^2.53.0"
+  }
+}
