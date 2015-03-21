@@ -24,6 +24,7 @@
     "brisk-content": "index.js"
   },
   "dependencies": {
+    "github": "^0.2.3",
     "prompt": "^0.2.14",
     "request": "^2.53.0"
   }
